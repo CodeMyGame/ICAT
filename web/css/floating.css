@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 26, 2016, 12:26:08 AM
+    Author     : Kapil Malviya
+*/
+.fab {
+  cursor: pointer;
+  z-index: 2000;
+}
+.fab-backdrop {
+  color: rgba(0, 255, 255, 0);
+}
+.fab-primary, .fab-secondary {
+  transition: all 0.35s ease-in-out;
+}
+.fab.active .fab-primary {
+  opacity: 0;
+  transform: rotate(225deg);
+}
+.fab-secondary {
+  opacity: 0;
+  transform: rotate(-225deg);
+}
+.fab.active .fab-secondary {
+  opacity: 1;
+  transform: rotate(0);
+  margin-top: -2px;
+}
+
+
+
+#inbox .show-on-hover:hover > ul.dropdown-menu {
+    display: block;    
+    
+}
+#inbox .show-on-hover {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#inbox .btn-io{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    box-shadow: 0px 3px 7px 0px rgba(202, 124, 124, 0.72);
+    padding: 0;
+}
+
+
+
